@@ -7,18 +7,18 @@ cache:
 
 install:
   - npm install vuepress -g
-  - echo "Install done!
+  - echo "Install done!"
   
 script:
   - cd docs && npm run build
-  - echo 'Build done!'
+  - echo "Build done!"
   
 branches:
   only:
     - master
     
 before_install:
-  - echo 'Before install'
+  - echo "Before install"
   
 addons:
   ssh_known_hosts: 18.191.12.61
